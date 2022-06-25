@@ -12,17 +12,13 @@ body {
 }
 
 .header {
-    background-color: rgb(184, 79, 79);
+    background-color: rgb(189, 183, 107);
 }
 
 .container-header {
     width: 90%;
     margin: 0 auto;
     box-sizing: border-box;
-}
-
-.a,a:visited {
-    color: dodgerblue;
 }
 
 .nav {
@@ -37,11 +33,18 @@ body {
 
 .menu-item {
     padding: 0 12px;
+    color: rgb(255, 255, 255);
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 20px;
 }
 
 .section-profile {
@@ -49,7 +52,7 @@ body {
     width: 100%;
     padding: 50px 35px 30px;
     justify-content:space-evenly;
-    border-bottom: 10px solid rgb(223, 143, 143);
+    border-bottom: 10px solid rgb(240, 230, 140);
 }
 
 .section-profile-photo {
@@ -62,14 +65,71 @@ body {
 .section-profile-tittle {
     margin: 50px 35px 10px;
     font-weight: 300;
+    color: darkslategray;
 }
 
 .section-profile-subtittle {
     margin: 0px 35px 30px;
     font-weight: 300;
+    color: darkslategray;
 }
 
+.section {
+width: calc(50% - 20px);
+padding: 10px;
+padding-bottom: 25px;
+border-bottom: 1px solid rgb(240, 230, 140);
+}
 
+.section-tittle {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    color: brown;
+    margin-top: 20px;
+}
+
+.section-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.section-item {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.pre {
+    margin: 0;
+    padding: 0;
+}
+
+.section-education, .section-english {
+    border-bottom: 0;
+}
+
+.footer {
+    background-color: rgb(189, 183, 107);
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.github-link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.rss_logo {
+    margin-top: 7px;
+}
 
 
 

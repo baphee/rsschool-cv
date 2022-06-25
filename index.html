@@ -23,7 +23,7 @@
             </div>
         </header>
         <main class="main">
-            <div class="main-container">
+            <div class="container main-container">
                 <section class="section-profile">
                     <img src="img/photo_2022-04-27_15-25-20.jpg" alt class="section-profile-photo">
                     <div class="section-name">
@@ -31,8 +31,74 @@
                         <h4 class="section-profile-subtittle">Front-end Developer</h4>
                     </div>
                 </section>
+                <section class="section">
+                    <h2 class="section-tittle">Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-item">
+                            Email:
+                            <a href="mailto:ixarekya@gmail.com" title="email">ixarekya@gmail.com</a>
+                        </li>
+                        <li class="section-item">
+                            GitHub:
+                            <a href="https://github.com/baphee" title="github">baphee</a>
+                        </li>
+                        <li class="section-item">Minsk, Belarus</li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h2 class="section-tittle">About Myself</h2>
+                    <p>My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104. This is my confession. If you're watching this tape, I'm probably dead, murdered by my brother-in-law Hank Schrader. Hank has been building a meth empire for over a year now and using me as his chemist. Shortly after my 50th birthday, Hank came to me with a rather, shocking proposition. He asked that I use my chemistry knowledge to cook methamphetamine, which he would then sell using his connections in the drug world.</p>
+                </section>
+                <section class="section">
+                    <h2 class="section-tittle">Code Example</h2>
+                    <pre class="pre">
+                        <code>
+program blya;
+var i:integer;
+s,p:real;
+A:array [1..10] of real;
+begin
+for i:=1 to 10 do
+readln(A[i]);
+s:=0;
+p:=1;
+for i:=1 to 10 do
+if A[i] &#60 0 then
+begin
+s:=s+A[i];
+p:=p*A[i];
+end;
+writeln('s=',s:9:2, 'p=',p:9:2);
+end.</code>
+                    </pre>
+                </section>
+                <section class="section">
+                    <h2 class="section-tittle">Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Git</li>
+                        <li class="section-item">CSS</li>
+                        <li class="section-item">HTML</li>
+                        <li class="section-item">PascalABC</li>
+                        <li class="section-item">Excel Macros</li>
+                    </ul>
+                </section>
+                <section class="section section-education">
+                    <h2 class="section-tittle">Education</h2>
+                    <p>Belarusian State Agrarian Technical University</p>
+                </section>
+                <section class="section section-english">
+                    <h2 class="section-tittle">English</h2>
+                    <p>A2 - Elementary</p>
+                </section>
             </div>
         </main>
-
+        <footer class="footer">
+            <div class="container container-footer">
+                <div>© 2022
+                <a href="https://github.com/baphee" class="github-link">baphee</a>
+                </div>
+                <a href="https://rs.school/" class="rss"><img src="img/unnamed.jpg" width="50" height="50" class="rss_logo"></a>
+            </div>
+        </footer>
 </body>
 </html>
